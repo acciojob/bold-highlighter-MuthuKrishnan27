@@ -1,12 +1,16 @@
-function highlight() {
-    //Write your code here
 
+        let strong = document.getElementsByTagName("strong");
 
-}
-
-
-function return_normal() {
-    //Write your code here
-
-    
-}
+         function highlight() {
+            //Write your code here
+                // console.log(strong);
+            for(let i=0;i<strong.length;i++){
+                strong[i].style.color = "red";
+            }
+         }
+        function return_normal() {
+        //Write your code here
+            for(let i=0;i<strong.length;i++){
+                strong[i].style.color="black";
+            }
+        }
