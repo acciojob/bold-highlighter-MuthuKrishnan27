@@ -5,7 +5,7 @@
             //Write your code here
                 // console.log(strong);
             for(let i=0;i<strong.length;i++){
-                strong[i].style.color = "red";
+                strong[i].style.color = "green";
             }
          }
         function return_normal() {
